@@ -1,8 +1,8 @@
-variable "Public_subnet" {
+variable "public_subnet" {
   default = ["10.0.1.0/24", "10.0.2.0/24"]
 }
 
-variable "Private_subnet" {
+variable "private_subnet" {
   default = ["10.0.12.0/24", "10.0.24.0/24"]
 }
 
