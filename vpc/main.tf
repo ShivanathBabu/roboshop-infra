@@ -1,4 +1,4 @@
 module "vpc" {
-  source = "https://github.com/ShivanathBabu/roboshop-vpc.git"
+  source = "git::https://github.com/ShivanathBabu/roboshop-vpc.git"
   
 }
